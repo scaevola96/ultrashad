@@ -1,0 +1,81 @@
+\section{Теория вероятностей: Задачи}
+\begin{problem}{(ФКН ВШЭ: Теория вероятностей: Листок 3)}
+	Пусть $ \xi $ некоторая случайная величина. При каком $ a \in \mathbb{R} $ достигается минимальное значение $ f(a) =\mathbb{E}\left[(\xi-a)^{2}\right] $
+\end{problem}
+\begin{solution}
+	Раскроем по линейности матожидание. $ \mathbb{E}\left[(\xi-a)^{2}\right]=\mathbb{E}\left[\xi^{2}\right]-2 a \mathbb{E}[\xi]+a^{2} $.\\
+	Прибавим и отнимем $ (\mathbb{E}(\xi))^2 $\\
+	
+	$f(a)=(a-\mathbb{E}[\xi])^{2}+\mathbb{E}\left[\xi^{2}\right]-(\mathbb{E}[\xi])^{2}=(a-\mathbb{E}[\xi])^{2}+\mathbb{D}[\xi]$
+	Так как дисперисия не зависит от параметра $ a $ $ \Rightarrow $ минимум достигается при $ (a-\mathbb{E}[\xi])^{2} = 0 $ т.е $ a =\mathbb{E}[\xi] $
+\end{solution}
+\begin{problem}{(ФКН ВШЭ: Теория вероятностей: Листок 3)}
+	Вычислить $\mathbb{E}[\xi], \mathbb{D}[\xi] u \mathbb{E}\left[3^{\xi}\right]$, если $ \xi $ - это
+	\begin{enumerate}
+		\item пуассоновская случайная величина с параметром $ \lambda \ge 0 $
+		
+		\item геометрическая случайная величина с параметром $ p \in (0,1) $
+	\end{enumerate}	
+\end{problem}
+
+\begin{solution}
+	\begin{enumerate}
+		\begin{enumerate}
+			\item
+			
+			
+			$\mathbb{P}[\xi=k]=\frac{\lambda^{k}}{k !} e^{-\lambda}, k \in \mathbb{N}$ \\
+			$\mathbb{E}[\xi]=\sum_{k=1}^{\infty} k \cdot \frac{\lambda^{k}}{k !} e^{-\lambda}=\frac{\lambda}{e^{\lambda}} \sum_{k=1}^{\infty} \frac{\lambda^{k-1}}{(k-1) !}=\frac{\lambda}{e^{\lambda}} \cdot e^{\lambda}=\lambda$ \\
+			\item
+			$\mathbb{D}[\xi]=\mathbb{E}\left[\xi^{2}\right]-(\mathbb{E}[\xi])^{2}=\sum_{k=1}^{\infty} k^{2} \cdot \frac{\lambda^{k}}{k !} e^{-\lambda}-\lambda^{2}=\frac{1}{e^{\lambda}} \sum_{k=1}^{\infty} \frac{k \lambda^{k}}{(k-1) !}-\lambda^{2}$
+			
+			$\frac{1}{e^{\lambda}} \sum_{k=0}^{\infty} \frac{(k+1) \lambda^{k+1}}{k !}-\lambda^{2}=\frac{\lambda^{2}}{e^{\lambda}} \sum_{k=1}^{\infty} \frac{\lambda^{k-1}}{(k-1) !}+\frac{\lambda}{e^{\lambda}} \underbrace{\sum_{k=0}^{\infty} \frac{\lambda^{k}}{k !}}_{=e^{\lambda}}-\lambda^{2}=\lambda$
+			
+			\item
+			$\mathbb{E}\left[3^{\xi}\right]=\sum_{k=1}^{\infty} 3^{k} \cdot \frac{\lambda^{k}}{k !} e^{-\lambda}=e^{-\lambda} \underbrace{\sum_{k=1}^{\infty} \frac{(3 \lambda)^{k}}{k !}}_{=e^{3 \lambda}}=e^{2 \lambda}$
+		\end{enumerate}
+	
+	\begin{enumerate}
+		\item 
+		$\mathbb{P}[\xi=k]=p(1-p)^{k-1}, k \in \mathbb{N}$
+		$\mathbb{E}[\xi]=\sum_{k=1}^{\infty} k \cdot(1-p)^{k-1} p=p \sum_{k=1}^{\infty} k(1-p)^{k-1}$
+		
+		$$
+		\sum_{k=1}^{\infty} q^{k}=\frac{q}{1-q} \quad q \in(0,1)
+		$$
+		
+		$$
+		\frac{\partial}{\partial q} \sum_{k=1}^{\infty} q^{k}=\sum_{k=1}^{\infty} k q^{k-1}
+		$$
+		
+		$q=1-p$
+		
+		$$
+		\mathbb{E}[\xi]=p\left(\frac{\partial}{\partial q}\left(\frac{q}{1-q}\right) | q=1-p\right)=p\left(\frac{1-q+q}{(1-q)^{2}} | q=1-p\right)=p \cdot \frac{1}{p^{2}}=\frac{1}{p}
+		$$
+		
+		\item 
+		$$
+		\mathbb{D}[\xi]=\mathbb{E}\left[\xi^{2}\right]-(\mathbb{E}[\xi])^{2}=\mathbb{E}\left[\xi^{2}-\xi+\xi\right]-(\mathbb{E}[\xi])^{2}=\mathbb{E}[\xi(\xi-1)]+\mathbb{E}[\xi]-(\mathbb{E}[\xi])^{2}
+		$$
+		
+		$$
+		\begin{aligned} \mathbb{E}[\xi(\xi-1)] = p \sum_{k=1}^{\infty} k(k-1) q^{k-1}=p \cdot \frac{\partial}{\partial q}\left(\sum_{k=1}^{\infty}(k-1) q^{k}\right)=p \cdot \frac{\partial}{\partial q}\left(q^{2} \sum_{k=2}^{\infty}(k-1) q^{k-2}\right)=\\=p \cdot \frac{\partial}{\partial q}\left(q^{2} \cdot \frac{\partial}{\partial q} \sum_{k=2}^{\infty} q^{k-1}\right)=\\\left.=p \cdot \frac{\partial}{\partial q}\left(q^{2} \cdot \frac{\partial}{\partial q} \sum_{k=1}^{\infty} q^{k}\right)=p \cdot \frac{\partial}{\partial q}\left(q^{2} \cdot \frac{\partial}{\partial q}\right)\right)=p \cdot \frac{\partial}{\partial q}\left(\frac{q^{2}}{(1-q)^{2}}\right)=p\left(\frac{-2 q}{(q-1)^{3}}\right)=\\=\{p=1-q\}=p\left(\frac{-2+2 p}{-p^{3}}\right)=\frac{2(p-1)}{-p^{2}}=\frac{2(1-p)}{p^{2}} \end{aligned}
+		$$
+		
+		$$\mathbb{D}[\xi]=\mathbb{E}[\xi(\xi-1)]+\mathbb{E}[\xi]-(\mathbb{E}[\xi])^{2}=\frac{2(1-p)}{p^{2}}+\frac{1}{p}-\frac{1}{p^{2}}=\frac{2-2 p+p-1}{p^{2}}=\frac{1-p}{p^{2}}
+		$$
+		
+		\item 
+	
+		$$\mathbb{E}\left[3^{\xi}\right]=\sum_{k=1}^{\infty} 3^{k} \cdot p(1-p)^{k-1}=3 p \sum_{k=1}^{\infty} 3^{k-1} \cdot(1-p)^{k-1}$$
+		
+		Для сходимости необходимо, чтобы $3(1-p)<1$
+		
+		$$
+		\mathbb{E}\left[3^{\xi}\right]=\frac{3 p}{1-3(1-p)}
+		$$
+	\end{enumerate}
+
+	\end{enumerate}
+\end{solution}

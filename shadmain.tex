@@ -1,0 +1,94 @@
+\documentclass[a4paper,12pt]{article}
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+%%
+\usepackage{cmap} 
+\usepackage{ gensymb }
+\usepackage[unicode]{hyperref}
+\usepackage{ textcomp }
+\usepackage{datetime}
+\usepackage{physics}
+\usepackage{cancel}
+\usepackage{mathtools}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%%
+
+%%% Дополнительная работа с математикой
+\usepackage{amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{amsmath}
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Теоремы
+\newtheorem{exercise}{Упражнение}[section]
+\newtheorem*{solution}{Решение}
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}
+\theoremstyle{plain}
+\newtheorem{theorem}{Теорема}
+\newtheorem{lemma}{Лемма}
+\newtheorem{example}{Пример}
+\newtheorem{problem}{Задача}
+%
+\theoremstyle{plain}
+%\newtheorem{proof}{Доказательство}
+%
+\newtheorem{statement}{Утверждение}
+
+\theoremstyle{remark}
+\newtheorem*{properties}{Свойства}
+
+%%
+
+\fancyhead[L]{\footnotesize ШАД Яндекс}
+\fancyhead[RO]{Последняя компиляция: \today }
+\fancyfoot[R]{\thepage}
+\fancyfoot[C]{}
+
+
+
+
+%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%% Шрифты
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+
+%% Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%%% Работа с картинками
+\usepackage{graphicx}  % Для вставки рисунков
+\graphicspath{{images/}{images2/}}  % папки с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig} % Обтекание рисунков и таблиц текстом
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}  % Длинные таблицы
+\usepackage{multirow} % Слияние строк в таблице
+
+
+%%% Заголовок
+\title{Школа анализа данных}
+\date{\today}
+
+
+\begin{document} % конец преамбулы, начало документа
+	
+	\input{linal.tex}
+	\input{linalproblems.tex}
+	\input{probproblems.tex}
+	
+\end{document} % конец документа
