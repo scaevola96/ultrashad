@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.24)  3 OCT 2019 13:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.24)  8 OCT 2019 10:20
 entering extended mode
 **./shadmain.tex
 (shadmain.tex
@@ -1061,44 +1061,44 @@ Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 ) (shadmain.aux)
 \openout1 = `shadmain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 90.
 \symgns@font=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 88.
-Package gensymb Info: Math companion symbols declared on input line 88.
-LaTeX Info: Redefining \degree on input line 88.
-LaTeX Info: Redefining \celsius on input line 88.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 90.
+Package gensymb Info: Math companion symbols declared on input line 90.
+LaTeX Info: Redefining \degree on input line 90.
+LaTeX Info: Redefining \celsius on input line 90.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 88.
-LaTeX Info: Redefining \ohm on input line 88.
-Package gensymb Info: Using \textohm for \ohm on input line 88.
-Package gensymb Info: Using \textmu for \micro on input line 88.
+erthousand on input line 90.
+LaTeX Info: Redefining \ohm on input line 90.
+Package gensymb Info: Using \textohm for \ohm on input line 90.
+Package gensymb Info: Using \textmu for \micro on input line 90.
 \AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1108,9 +1108,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count325
 )
-LaTeX Info: Redefining \ref on input line 88.
-LaTeX Info: Redefining \pageref on input line 88.
-LaTeX Info: Redefining \nameref on input line 88.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (shadmain.out) (shadmain.out)
 \@outlinefile=\write3
@@ -1191,7 +1191,17 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)) (linalproblems.tex) (probproblems.tex
+)) (comb.tex)
+(linalproblems.tex) (probproblems.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1{C:/Users/serge/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
@@ -1202,37 +1212,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[1{C:/Users/serge/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
 Overfull \hbox (18.77675pt too wide) detected at line 64
 [][]
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
+[2] [3]) (combproblems.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (shadmain.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 Package rerunfilecheck Info: File `shadmain.out' has not changed.
-(rerunfilecheck)             Checksum: 0E32FF08DAC073EC53462C5E2F9616E2;490.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
+(rerunfilecheck)             Checksum: 393DD5A22916DF3186825186DB40E9E6;847.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 24297 strings out of 492895
- 395319 string characters out of 3133479
- 481032 words of memory out of 3000000
- 27919 multiletter control sequences out of 15000+200000
- 543404 words of font info for 54 fonts, out of 3000000 for 9000
+ 24321 strings out of 492895
+ 395662 string characters out of 3133479
+ 484032 words of memory out of 3000000
+ 27923 multiletter control sequences out of 15000+200000
+ 545152 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,11n,68p,1043b,559s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,68p,1043b,562s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\serge\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 ti1200.pk> <C:\Users\serge\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
 pi600\labx1728.pk> <C:\Users\serge\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
@@ -1248,10 +1250,11 @@ C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
-Output written on shadmain.pdf (2 pages, 166628 bytes).
+/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msbm10.pfb>
+Output written on shadmain.pdf (4 pages, 202598 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

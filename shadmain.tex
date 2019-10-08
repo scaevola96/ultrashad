@@ -26,7 +26,7 @@
 
 %% Теоремы
 \newtheorem{exercise}{Упражнение}[section]
-\newtheorem*{solution}{Решение}
+
 \theoremstyle{definition}
 \newtheorem{definition}{Определение}
 \theoremstyle{plain}
@@ -34,6 +34,8 @@
 \newtheorem{lemma}{Лемма}
 \newtheorem{example}{Пример}
 \newtheorem{problem}{Задача}
+\newtheorem*{solution}{Решение}
+
 %
 \theoremstyle{plain}
 %\newtheorem{proof}{Доказательство}
@@ -88,7 +90,10 @@
 \begin{document} % конец преамбулы, начало документа
 	
 	\input{linal.tex}
+	\input{comb.tex}
 	\input{linalproblems.tex}
 	\input{probproblems.tex}
+	\input{combproblems.tex}
+
 	
 \end{document} % конец документа
