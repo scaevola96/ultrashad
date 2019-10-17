@@ -19,6 +19,11 @@
 \pagestyle{fancy}
 %%
 
+
+
+
+
+
 %%% Дополнительная работа с математикой
 \usepackage{amsfonts,amssymb,amsthm,mathtools} % AMS
 \usepackage{amsmath}
@@ -35,6 +40,17 @@
 \newtheorem{example}{Пример}
 \newtheorem{problem}{Задача}
 \newtheorem*{solution}{Решение}
+%
+\makeatletter
+\@ifpackageloaded{hyperref}%
+{\newcommand{\mylabel}[2]% #1=name, #2 = contents
+	{\protected@write\@auxout{}{\string\newlabel{#1}{{#2}{\thepage}%
+				{\@currentlabelname}{\@currentHref}{}}}}}%
+{\newcommand{\mylabel}[2]% #1=name, #2 = contents
+	{\protected@write\@auxout{}{\string\newlabel{#1}{{#2}{\thepage}}}}}
+\makeatother
+
+
 
 %
 \theoremstyle{plain}
@@ -94,6 +110,9 @@
 	\input{linalproblems.tex}
 	\input{probproblems.tex}
 	\input{combproblems.tex}
+	
+	%Bibliography
+	\input{bibliography.tex}
 
 	
 \end{document} % конец документа
