@@ -1,6 +1,6 @@
 \section{Линейная Алгебра: Задачи}
 \begin{problem}
-	Существуют ли матрицы $A$ b $ B $ такие что $A B-B A=I$
+	Существуют ли матрицы $A$ и $ B $ такие что $A B-B A=I$
 \end{problem}
 
 \begin{solution}
@@ -74,6 +74,28 @@ $$
 	4-a-a^{2}=2 , a = 1 , a = -2	
 	$
 \end{solution}
+
+
+	
+	
+\begin{problem}
+	Пусть $ A $ и $ B $ -- ортогональные матрицы. Докажите что 
+	$ \displaystyle
+	 \operatorname{det}\left(A^{\mathrm{T}} B-B^{\mathrm{T}} A\right)=\operatorname{det}(A+B) \cdot \operatorname{det}(A-B)
+	$
+\end{problem}
+
+\begin{solution}
+	$
+	\operatorname{det}(A+B)=\operatorname{det}(A+B)^{T}=\operatorname{det}\left(A^{T}+B^{T}\right)
+	$
+	\\
+	$ 
+	\operatorname{det}\left(A^{T}+B^{T}\right) \cdot \operatorname{det}(A-B)= \operatorname{det}(\left(A^{ T}+B^{T}\right)(A-B)) = \operatorname{det}\left(A^{T} A-A^{T} B+B^{T} A-B^{T} B\right) = \operatorname{det}\left(E-A^{T} B+B^{T} A-E\right) = 
+	\operatorname{det}\left(B^{T} A-A^{T} B\right) = \operatorname{det}\left(B^{T} A-A^{T} B\right)^{T}=
+	\operatorname{det}\left(A^{T} B-B^{T} A\right)
+	$
+\end{solution}		
 
 
 				
