@@ -1,0 +1,11 @@
+\section{Анализ: Задачи}
+\begin{problem}[ШАД Экзамен 27 мая 2012]
+	Вычислите интеграл $\displaystyle \int \frac{1}{\sqrt{1+e^{x}}} d x$
+\end{problem}
+\begin{solution}
+	Cделаем замену $t=\sqrt{1+e^{x}}$
+	$$ \displaystyle
+	\int \frac{d x}{\sqrt{1+e^{x}}}=\int \frac{2 d t}{t^{2}-1}=\int\left(\frac{1}{t-1}-\frac{1}{t+1}\right) d t=\ln \frac{|t-1|}{|t+1|}+C$$
+	$\displaystyle
+	\int \frac{d x}{\sqrt{1+e^{x}}}=\ln \frac{\sqrt{1+e^{x}}-1}{\sqrt{1+e^{x}}+1}+C$
+\end{solution}	
